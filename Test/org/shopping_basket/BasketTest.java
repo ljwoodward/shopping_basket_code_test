@@ -2,6 +2,8 @@ package org.shopping_basket;
 
 import org.junit.*;
 
+import static org.junit.Assert.assertEquals;
+
 public class BasketTest {
 
     Basket basket;
@@ -15,6 +17,11 @@ public class BasketTest {
         item2 = new ShopItem("Aquafresh Toothpaste", 2.50);
     }
 
-
+    @Test
+    public void testAddToBasket() {
+        basket.addItemToBasket(item1);
+        int actual = basket.getItemsInBasket().size();
+        assertEquals(1, actual);
+    }
 
 }

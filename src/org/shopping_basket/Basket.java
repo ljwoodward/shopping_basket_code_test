@@ -9,4 +9,8 @@ public class Basket {
     public Basket() {
         this.itemsInBasket = new ArrayList<ShopItem>();
     }
+
+    public ArrayList<ShopItem> getItemsInBasket() {
+        return itemsInBasket;
+    }
 }

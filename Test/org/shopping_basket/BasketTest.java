@@ -34,6 +34,13 @@ public class BasketTest {
         assertEquals(1, actual);
     }
 
+    @Test
+    public void testRemoveAllItemsFromBasket() {
+        basket.removeAllItemsFromBasket();
+        int actual = basket.getItemsInBasket().size();
+        assertEquals(0, actual);
+    }
+
 
 
 }

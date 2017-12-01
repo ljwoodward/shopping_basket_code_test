@@ -27,5 +27,11 @@ public class Basket {
     }
 
 
-
+    public double calculateTotalCost() {
+        double total = 0;
+        for (ShopItem item : this.itemsInBasket) {
+                total += item.getPrice();
+        }
+        return total;
+    }
 }

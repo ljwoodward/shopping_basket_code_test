@@ -19,11 +19,21 @@ public class BasketTest {
         basket.addItemToBasket(item2);
     }
 
-//    @Test
-//    public void testAddToBasket() {
-//        basket.addItemToBasket(item1);
-//        int actual = basket.getItemsInBasket().size();
-//        assertEquals(1, actual);
-//    }
+    @Test
+    public void testAddToBasket() {
+        ShopItem item = new ShopItem("Banana", 0.12);
+        basket.addItemToBasket(item);
+        int actual = basket.getItemsInBasket().size();
+        assertEquals(3, actual);
+    }
+
+    @Test
+    public void testRemoveFromBasket() {
+        basket.removeItemFromBasket(item2):
+        int actual = basket.getItemsInBasket().size();
+        assertEquals(1, actual);
+    }
+
+
 
 }

@@ -17,4 +17,8 @@ public class Basket {
     public void addItemToBasket(ShopItem item) {
         this.itemsInBasket.add(item);
     }
+
+    public void removeItemFromBasket(ShopItem item) {
+        this.itemsInBasket.remove(item);
+    }
 }

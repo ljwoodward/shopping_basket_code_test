@@ -29,7 +29,7 @@ public class BasketTest {
 
     @Test
     public void testRemoveFromBasket() {
-        basket.removeItemFromBasket(item2):
+        basket.removeItemFromBasket(item2);
         int actual = basket.getItemsInBasket().size();
         assertEquals(1, actual);
     }

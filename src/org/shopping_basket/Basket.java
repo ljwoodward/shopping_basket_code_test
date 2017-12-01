@@ -21,4 +21,8 @@ public class Basket {
     public void removeItemFromBasket(ShopItem item) {
         this.itemsInBasket.remove(item);
     }
+
+    public void removeAllItemsFromBasket() {
+        this.itemsInBasket.removeAll(itemsInBasket);
+    }
 }

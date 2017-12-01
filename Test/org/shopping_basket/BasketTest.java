@@ -15,13 +15,15 @@ public class BasketTest {
         basket = new Basket();
         item1 = new ShopItem("Wheatabix", 1.99);
         item2 = new ShopItem("Aquafresh Toothpaste", 2.50);
+        basket.addItemToBasket(item1);
+        basket.addItemToBasket(item2);
     }
 
-    @Test
-    public void testAddToBasket() {
-        basket.addItemToBasket(item1);
-        int actual = basket.getItemsInBasket().size();
-        assertEquals(1, actual);
-    }
+//    @Test
+//    public void testAddToBasket() {
+//        basket.addItemToBasket(item1);
+//        int actual = basket.getItemsInBasket().size();
+//        assertEquals(1, actual);
+//    }
 
 }

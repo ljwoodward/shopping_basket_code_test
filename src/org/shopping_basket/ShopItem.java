@@ -9,4 +9,8 @@ public class ShopItem {
         this.name = name;
         this.price = price;
     }
+
+    public double getPrice() {
+        return price;
+    }
 }

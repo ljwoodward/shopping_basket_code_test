@@ -41,6 +41,12 @@ public class BasketTest {
         assertEquals(0, actual);
     }
 
+    @Test
+    public void testCalculateTotalCostOfBasket() {
+        float actual = basket.calculateTotalCost();
+        assertEquals(4.49, actual, 0);
+    }
+
 
 
 }

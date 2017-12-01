@@ -13,4 +13,7 @@ public class ShopItem {
     public double getPrice() {
         return price;
     }
+
+
+
 }

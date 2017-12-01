@@ -1,5 +1,7 @@
 Shopping Basket Code Test
 
+The Brief:
+
 You have been asked to model a shopping basket.
 
 You must be able to:

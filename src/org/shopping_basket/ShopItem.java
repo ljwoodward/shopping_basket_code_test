@@ -21,7 +21,7 @@ public class ShopItem {
         return buyOneGetOneFree;
     }
 
-    public void setBuyOneGetOneFree(boolean bool) {
-        this.buyOneGetOneFree = bool;
+    public void setBuyOneGetOneFreeOn() {
+        this.buyOneGetOneFree = true;
     }
 }

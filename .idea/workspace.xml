@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e44507d6-823f-450a-bf2c-a3acbbc3b089" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/shopping_basket_code_test/org/shopping_basket/Checkout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/shopping_basket_code_test/org/shopping_basket/CheckoutTest.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/shopping_basket/Basket.java" afterPath="$PROJECT_DIR$/src/org/shopping_basket/Basket.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/org/shopping_basket/BasketTest.java" afterPath="$PROJECT_DIR$/Test/org/shopping_basket/BasketTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/shopping_basket/ShopItem.java" afterPath="$PROJECT_DIR$/src/org/shopping_basket/ShopItem.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,8 +28,8 @@
       <file leaf-file-name="ShopItem.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/shopping_basket/ShopItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="285">
+              <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -39,8 +38,8 @@
       <file leaf-file-name="BasketTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Test/org/shopping_basket/BasketTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="537">
-              <caret line="52" column="38" lean-forward="false" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
+            <state relative-caret-position="249">
+              <caret line="58" column="36" lean-forward="false" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,9 +82,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/src/org/shopping_basket/Basket.java" />
         <option value="$PROJECT_DIR$/src/org/shopping_basket/ShopItem.java" />
         <option value="$PROJECT_DIR$/Test/org/shopping_basket/BasketTest.java" />
-        <option value="$PROJECT_DIR$/src/org/shopping_basket/Basket.java" />
       </list>
     </option>
   </component>
@@ -173,7 +172,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BasketTest.countMultipleItems">
+  <component name="RunManager" selected="JUnit.BasketTest.testBuyOneGetOneFree_2Items">
     <configuration name="BasketTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -224,6 +223,31 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="BasketTest.testBuyOneGetOneFree_2Items" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.shopping_basket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="shopping_basket_code_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.shopping_basket" />
+      <option name="MAIN_CLASS_NAME" value="org.shopping_basket.BasketTest" />
+      <option name="METHOD_NAME" value="testBuyOneGetOneFree_2Items" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="BasketTest.testCalculateTotalCostOfBasket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -262,31 +286,6 @@
       <option name="PACKAGE_NAME" value="org.shopping_basket" />
       <option name="MAIN_CLASS_NAME" value="org.shopping_basket.BasketTest" />
       <option name="METHOD_NAME" value="testRemoveAllItemsFromBasket" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="BasketTest.testRemoveFromBasket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="org.shopping_basket.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="shopping_basket_code_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.shopping_basket" />
-      <option name="MAIN_CLASS_NAME" value="org.shopping_basket.BasketTest" />
-      <option name="METHOD_NAME" value="testRemoveFromBasket" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -381,19 +380,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.BasketTest.testRemoveFromBasket" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.BasketTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.BasketTest.testRemoveAllItemsFromBasket" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.BasketTest.testCalculateTotalCostOfBasket" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.BasketTest.countMultipleItems" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.BasketTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.BasketTest.testRemoveAllItemsFromBasket" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.BasketTest.testCalculateTotalCostOfBasket" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.BasketTest.countMultipleItems" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.BasketTest.testBuyOneGetOneFree_2Items" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BasketTest.countMultipleItems" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.BasketTest.testCalculateTotalCostOfBasket" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.BasketTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.BasketTest.testRemoveAllItemsFromBasket" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.BasketTest.testRemoveFromBasket" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.BasketTest.testBuyOneGetOneFree_2Items" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.BasketTest.countMultipleItems" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.BasketTest.testCalculateTotalCostOfBasket" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.BasketTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.BasketTest.testRemoveAllItemsFromBasket" />
       </list>
     </recent_temporary>
   </component>
@@ -444,10 +443,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -455,7 +455,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286445" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29539642" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29539642" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2353362" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -529,14 +529,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/shopping_basket/ShopItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/shopping_basket/Basket.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -545,10 +537,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/shopping_basket/ShopItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Test/org/shopping_basket/BasketTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="52" column="38" lean-forward="false" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
+        <state relative-caret-position="249">
+          <caret line="58" column="36" lean-forward="false" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -54,6 +54,14 @@ public class BasketTest {
         assertEquals(2, actual);
     }
 
+    @Test
+    public void testBuyOneGetOneFree_2Items() {
+        item1.setBuyOneGetOneFreeOn();
+        basket.addItemToBasket(item1);
+        double actual = basket.calculateTotalCost();
+        assertEquals(4.49, actual, 0);
+    }
+
 
 
 }

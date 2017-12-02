@@ -4,10 +4,12 @@ public class ShopItem {
 
     private String name;
     private double price;
+    private boolean buyOneGetOneFree;
 
     public ShopItem(String name, double price) {
         this.name = name;
         this.price = price;
+        this.buyOneGetOneFree = false;
     }
 
     public double getPrice() {
@@ -15,5 +17,11 @@ public class ShopItem {
     }
 
 
+    public boolean isBuyOneGetOneFree() {
+        return buyOneGetOneFree;
+    }
 
+    public void setBuyOneGetOneFree(boolean bool) {
+        this.buyOneGetOneFree = bool;
+    }
 }

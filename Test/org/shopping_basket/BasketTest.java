@@ -47,6 +47,13 @@ public class BasketTest {
         assertEquals(4.49, actual, 0);
     }
 
+    @Test
+    public void countMultipleItems() {
+        basket.addItemToBasket(item1);
+        int actual = basket.countNumberOfItems(item1);
+        assertEquals(2, actual);
+    }
+
 
 
 }

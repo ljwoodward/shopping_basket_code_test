@@ -34,4 +34,14 @@ public class Basket {
         }
         return total;
     }
+
+    public int countNumberOfItems(ShopItem itemToCount) {
+        int total = 0;
+        for ( ShopItem item : this.itemsInBasket ) {
+            if ( item == itemToCount ){
+                total++;
+            }
+        }
+        return total;
+    }
 }

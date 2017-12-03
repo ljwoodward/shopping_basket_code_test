@@ -64,6 +64,15 @@ public class BasketTest {
         assertEquals(26.54, actual, 0.0049);
     }
 
+    @Test
+    public void loyaltyCardDiscountApplied() {
+        Basket newBasket = new Basket(true);
+        basket.addItemToBasket(item1);
+        basket.addItemToBasket(item2);
+        double actual = basket.calculateTotalCost();
+        assertEquals(4.40, actual, 0.0049);
+    }
+
 //    @Test
 //    public void testAreEligibleForTwoForOneTrue() {
 //        ShopItem newItem = new ShopItem("Pop Tarts", 1.50, true);

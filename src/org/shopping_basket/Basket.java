@@ -6,9 +6,16 @@ import java.util.Iterator;
 public class Basket {
 
     private ArrayList<ShopItem> itemsInBasket;
+    private boolean loyaltyCard;
 
     public Basket() {
-        this.itemsInBasket = new ArrayList<ShopItem>();
+        this.itemsInBasket = new ArrayList<>();
+        this.loyaltyCard = false;
+    }
+
+    public Basket(boolean loyaltyCard) {
+        this.itemsInBasket = new ArrayList<>();
+        this.loyaltyCard = loyaltyCard;
     }
 
     public ArrayList<ShopItem> getItemsInBasket() {

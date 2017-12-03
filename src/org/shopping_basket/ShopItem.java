@@ -18,6 +18,12 @@ public class ShopItem {
         this.buyOneGetOneFree = buyOneGetOneFree;
     }
 
+    public ShopItem(ShopItem clone) {
+        this.name = clone.name;
+        this.price = clone.price;
+        this.buyOneGetOneFree = clone.buyOneGetOneFree;
+    }
+
     public double getPrice() {
         return price;
     }

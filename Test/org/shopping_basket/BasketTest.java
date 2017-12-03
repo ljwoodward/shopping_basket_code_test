@@ -3,6 +3,8 @@ package org.shopping_basket;
 import org.junit.*;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
 public class BasketTest {
 
@@ -55,31 +57,56 @@ public class BasketTest {
     }
 
 //    @Test
+//    public void testAreEligibleForTwoForOneTrue() {
+//        ShopItem newItem = new ShopItem("Pop Tarts", 1.50, true);
+//        basket.addItemToBasket(newItem);
+//        basket.addItemToBasket(newItem);
+//        boolean actual = basket.twoOrMoreAndEven(newItem);
+//        assertTrue(actual);
+//    }
+//
+//    @Test
+//    public void testAreEligibleForTwoForOneFalse() {
+//        ShopItem newItem = new ShopItem("Pop Tarts", 1.50, true);
+//        basket.addItemToBasket(newItem);
+//        basket.addItemToBasket(newItem);
+//        basket.addItemToBasket(newItem);
+//        boolean actual = basket.twoOrMoreAndEven(newItem);
+//        assertFalse(actual);
+//    }
+//
+//    @Test
+//    public void testReturnEligibleForToofer2Items() {
+//        ShopItem newItem = new ShopItem("Pop Tarts", 1.50, true);
+//        basket.addItemToBasket(newItem);
+//        basket.addItemToBasket(newItem);
+//        int actual = basket.returnEligibleForToofer().size();
+//        int actual2 = basket.getItemsInBasket().size();
+//        assertEquals(2, actual);
+//        assertEquals(2, actual2);
+//    }
+
+//    @Test
+//    public void testReturnEligibleForToofer3Items() {
+//        ShopItem newItem = new ShopItem("Pop Tarts", 1.50, true);
+//        basket.addItemToBasket(newItem);
+//        basket.addItemToBasket(newItem);
+//        basket.addItemToBasket(newItem);
+//        int actual = basket.returnEligibleForToofer().size();
+//        int actual2 = basket.getItemsInBasket().size();
+//        assertEquals(2, actual);
+//        assertEquals(3, actual2);
+//    }
+
+//    @Test
 //    public void testBuyOneGetOneFree_2Items() {
 //        item1.setBuyOneGetOneFreeOn();
 //        basket.addItemToBasket(item1);
 //        double actual = basket.calculateTotalCost();
 //        assertEquals(4.49, actual, 0);
 //    }
+//
 
-    @Test
-    public void testAreEligibleForTwoForOneTrue() {
-        ShopItem newItem = new ShopItem("Pop Tarts", 1.50, true);
-        basket.addItemToBasket(newItem);
-        basket.addItemToBasket(newItem);
-        boolean actual = basket.areAllEligibleForToofer(newItem);
-        assertEquals(true, actual);
-    }
-
-    @Test
-    public void testAreEligibleForTwoForOneFalse() {
-        ShopItem newItem = new ShopItem("Pop Tarts", 1.50, true);
-        basket.addItemToBasket(newItem);
-        basket.addItemToBasket(newItem);
-        basket.addItemToBasket(newItem);
-        boolean actual = basket.areAllEligibleForToofer(newItem);
-        assertEquals(false, actual);
-    }
 
 
 

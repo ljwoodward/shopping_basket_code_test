@@ -1,6 +1,7 @@
 package org.shopping_basket;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class Basket {
 
@@ -52,11 +53,35 @@ public class Basket {
         return total;
     }
 
-    public boolean areAllEligibleForToofer(ShopItem item) {
-        boolean eligible = false;
-        if ( countNumberOfItems(item) >= 2 && countNumberOfItems(item) % 2 == 0) {
-            eligible = true;
-        }
-        return eligible;
-    }
+//    public boolean twoOrMoreAndEven(ShopItem item) {
+//        boolean eligible = false;
+//        if ( countNumberOfItems(item) >= 2 && countNumberOfItems(item) % 2 == 0) {
+//            eligible = true;
+//        }
+//        return eligible;
+//    }
+//
+//    public ArrayList<ShopItem> returnEligibleForToofer() {
+//        ArrayList<ShopItem> tempArray = new ArrayList<>();
+//        ArrayList<ShopItem> tooferArray = new ArrayList<>();
+//        for (Iterator<ShopItem> iterator = this.itemsInBasket.iterator(); iterator.hasNext();){
+//                ShopItem item = iterator.next();
+//                if (item.isBuyOneGetOneFree() && !twoOrMoreAndEven(item)) {
+//                    tempArray.add(item);
+//                    iterator.remove();
+//                } else if (item.isBuyOneGetOneFree() && twoOrMoreAndEven(item)) {
+//                    tooferArray.add(item);
+//                }
+//        }
+//        for (ShopItem item : this.itemsInBasket ) {
+//            if ( tooferArray.contains(item) ) {
+//                this.itemsInBasket.remove(item);
+//            }
+//        }
+//        this.itemsInBasket.addAll(tempArray);
+//        return tooferArray;
+//    }
+
+
+
 }

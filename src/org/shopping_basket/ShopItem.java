@@ -12,6 +12,12 @@ public class ShopItem {
         this.buyOneGetOneFree = false;
     }
 
+    public ShopItem(String name, double price, boolean buyOneGetOneFree) {
+        this.name = name;
+        this.price = price;
+        this.buyOneGetOneFree = buyOneGetOneFree;
+    }
+
     public double getPrice() {
         return price;
     }

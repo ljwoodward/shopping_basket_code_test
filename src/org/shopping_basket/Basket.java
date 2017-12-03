@@ -26,6 +26,13 @@ public class Basket {
         this.itemsInBasket.removeAll(itemsInBasket);
     }
 
+    private double calculateCostOfItems(ArrayList<ShopItem> items) {
+        double total = 0;
+        for ( ShopItem item : items ) {
+            total += item.getPrice();
+        }
+        return total;
+    }
 
     public double calculateTotalCost() {
         double total = 0;

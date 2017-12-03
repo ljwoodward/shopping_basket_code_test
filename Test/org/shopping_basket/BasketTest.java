@@ -62,6 +62,27 @@ public class BasketTest {
         assertEquals(4.49, actual, 0);
     }
 
+    @Test
+    public void testAreEligibleForTwoForOneTrue() {
+        ShopItem newItem = new ShopItem("Pop Tarts", 1.50, true);
+        basket.addItemToBasket(newItem);
+        basket.addItemToBasket(newItem);
+        boolean actual = basket.areAllEligibleForToofer(newItem);
+        assertEquals(true, actual);
+    }
+
+    @Test
+    public void testAreEligibleForTwoForOneFalse() {
+        ShopItem newItem = new ShopItem("Pop Tarts", 1.50, true);
+        basket.addItemToBasket(newItem);
+        basket.addItemToBasket(newItem);
+        basket.addItemToBasket(newItem);
+        boolean actual = basket.areAllEligibleForToofer(newItem);
+        assertEquals(false, actual);
+    }
+
+
+
 
 
 }

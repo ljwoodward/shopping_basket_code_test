@@ -50,6 +50,9 @@ public class Basket {
         if ( total >= 20) {
             total *= 0.9;
         }
+        if ( this.loyaltyCard == true ) {
+            total *= 0.98;
+        }
         return total;
     }
 
@@ -61,6 +64,14 @@ public class Basket {
             }
         }
         return total;
+    }
+
+    public boolean isLoyaltyCard() {
+        return loyaltyCard;
+    }
+
+    public void setLoyaltyCard(boolean loyaltyCard) {
+        this.loyaltyCard = loyaltyCard;
     }
 
 //    public boolean twoOrMoreAndEven(ShopItem item) {

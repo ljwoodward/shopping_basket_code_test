@@ -66,9 +66,7 @@ public class BasketTest {
 
     @Test
     public void loyaltyCardDiscountApplied() {
-        Basket newBasket = new Basket(true);
-        basket.addItemToBasket(item1);
-        basket.addItemToBasket(item2);
+        basket.setLoyaltyCard(true);
         double actual = basket.calculateTotalCost();
         assertEquals(4.40, actual, 0.0049);
     }

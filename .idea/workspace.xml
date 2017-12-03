@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e44507d6-823f-450a-bf2c-a3acbbc3b089" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/org/shopping_basket/BasketTest.java" afterPath="$PROJECT_DIR$/Test/org/shopping_basket/BasketTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/shopping_basket/Basket.java" afterPath="$PROJECT_DIR$/src/org/shopping_basket/Basket.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +18,8 @@
       <file leaf-file-name="Basket.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/shopping_basket/Basket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1260">
-              <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+            <state relative-caret-position="390">
+              <caret line="43" column="25" lean-forward="false" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#177#178#0" expanded="true" />
@@ -50,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/Test/org/shopping_basket/BasketTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="63" column="26" lean-forward="false" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
+              <caret line="63" column="42" lean-forward="false" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -425,14 +426,17 @@
     <history-entry file="BasketTest - 2017.12.03 at 14h 34m 44s.xml">
       <configuration name="BasketTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BasketTest_tenPercentDiscountMoreThan20Pounds - 2017.12.03 at 14h 39m 23s.xml">
+      <configuration name="BasketTest.tenPercentDiscountMoreThan20Pounds" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BasketTest_tenPercentDiscountMoreThan20Pounds - 2017.12.03 at 14h 40m 56s.xml">
+      <configuration name="BasketTest.tenPercentDiscountMoreThan20Pounds" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BasketTest_tenPercentDiscountMoreThan20Pounds - 2017.12.03 at 14h 41m 05s.xml">
+      <configuration name="BasketTest.tenPercentDiscountMoreThan20Pounds" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="BasketTest_testAreEligibleForTwoForOneTrue - 2017.12.03 at 14h 21m 54s.xml">
       <configuration name="BasketTest.testAreEligibleForTwoForOneTrue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BasketTest_testReturnEligibleForToofer2Items - 2017.12.03 at 14h 06m 42s.xml">
-      <configuration name="BasketTest.testReturnEligibleForToofer2Items" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BasketTest_testReturnEligibleForToofer2Items - 2017.12.03 at 14h 07m 25s.xml">
-      <configuration name="BasketTest.testReturnEligibleForToofer2Items" configurationId="JUnit" />
     </history-entry>
     <history-entry file="BasketTest_testReturnEligibleForToofer2Items - 2017.12.03 at 14h 22m 35s.xml">
       <configuration name="BasketTest.testReturnEligibleForToofer2Items" configurationId="JUnit" />
@@ -449,9 +453,6 @@
     <history-entry file="BasketTest_testReturnEligibleForToofer2Items - 2017.12.03 at 14h 28m 50s.xml">
       <configuration name="BasketTest.testReturnEligibleForToofer2Items" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BasketTest_testReturnEligibleForToofer3Items - 2017.12.03 at 14h 09m 53s.xml">
-      <configuration name="BasketTest.testReturnEligibleForToofer3Items" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -465,9 +466,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286445" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3286445" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29539642" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29539642" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2353362" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -560,10 +561,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/shopping_basket/Basket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+        <state relative-caret-position="390">
+          <caret line="43" column="25" lean-forward="false" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#177#178#0" expanded="true" />
@@ -580,21 +592,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="30">
-            <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Test/org/shopping_basket/BasketTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="63" column="26" lean-forward="false" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
+          <caret line="63" column="42" lean-forward="false" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

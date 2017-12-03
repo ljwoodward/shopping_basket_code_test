@@ -40,6 +40,9 @@ public class Basket {
         for (ShopItem item : this.itemsInBasket) {
                 total += item.getPrice();
         }
+        if ( total >= 20) {
+            total *= 0.9;
+        }
         return total;
     }
 

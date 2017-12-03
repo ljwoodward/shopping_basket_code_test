@@ -61,7 +61,7 @@ public class BasketTest {
         ShopItem newItem = new ShopItem("Champagne", 25.00);
         basket.addItemToBasket(newItem);
         double actual = basket.calculateTotalCost();
-        assertEquals(26.54, actual, 0.01);
+        assertEquals(26.54, actual, 0.0049);
     }
 
 //    @Test

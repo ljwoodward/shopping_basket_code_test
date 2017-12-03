@@ -56,6 +56,14 @@ public class BasketTest {
         assertEquals(2, actual);
     }
 
+    @Test
+    public void tenPercentDiscountMoreThan20Pounds() {
+        ShopItem newItem = new ShopItem("Champagne", 25.00);
+        basket.addItemToBasket(newItem);
+        double actual = basket.calculateTotalCost();
+        assertEquals(26.54, actual, 0.01);
+    }
+
 //    @Test
 //    public void testAreEligibleForTwoForOneTrue() {
 //        ShopItem newItem = new ShopItem("Pop Tarts", 1.50, true);

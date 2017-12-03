@@ -51,4 +51,12 @@ public class Basket {
         }
         return total;
     }
+
+    public boolean areAllEligibleForToofer(ShopItem item) {
+        boolean eligible = false;
+        if ( countNumberOfItems(item) >= 2 && countNumberOfItems(item) % 2 == 0) {
+            eligible = true;
+        }
+        return eligible;
+    }
 }
